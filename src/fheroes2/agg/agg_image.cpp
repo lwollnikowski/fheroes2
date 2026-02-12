@@ -43,6 +43,7 @@
 #include "icn.h"
 #include "image.h"
 #include "image_tool.h"
+#include "logging.h"
 #include "math_base.h"
 #include "pal.h"
 #include "rand.h"
@@ -3324,6 +3325,7 @@ namespace
             }
             break;
         case ICN::BTNSHNGL:
+            // TODO: when hidden no offset, hover state is shifted?
             if ( _icnVsSprite[id].size() == 20 ) {
                 _icnVsSprite[id].resize( 23 );
 

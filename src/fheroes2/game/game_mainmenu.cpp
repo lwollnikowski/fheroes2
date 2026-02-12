@@ -301,6 +301,7 @@ fheroes2::GameMode Game::MainMenu( const bool isFirstGameRun )
                                      ButtonInfo{ QUIT_DEFAULT, buttonQuit, buttonQuit.area(), false, false } };
 
     if ( isPOLPresent ) {
+        // TODO: when hidden no offset, hover state is shifted?
         buttons.emplace_back( ButtonInfo{ EDITOR_DEFAULT, buttonEditor, buttonEditor.area(), false, false } );
     }
 

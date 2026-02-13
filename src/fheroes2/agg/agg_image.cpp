@@ -3332,6 +3332,15 @@ namespace
                 fheroes2::h2d::readImage( "main_menu_editor_released_button.image", _icnVsSprite[id][20] );
                 fheroes2::h2d::readImage( "main_menu_editor_highlighted_button.image", _icnVsSprite[id][21] );
                 fheroes2::h2d::readImage( "main_menu_editor_pressed_button.image", _icnVsSprite[id][22] );
+
+                // _icnVsSprite[id][20].setPosition( 535, 360 ); // 535, 360
+                // _icnVsSprite[id][21].setPosition( 535, 360 );
+                // _icnVsSprite[id][22].setPosition( 535, 360 );
+                // _icnVsSprite[id][20]._disableTransformLayer();
+                _icnVsSprite[id][20].resize( 90, 64 ); // 87, 64
+                _icnVsSprite[id][20].reset();
+                // _icnVsSprite[id][21].resize( 90, 64 );
+                // _icnVsSprite[id][22].resize( 90, 64 );
             }
             break;
         case ICN::TOWNBKG3:

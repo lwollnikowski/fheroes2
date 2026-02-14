@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fheroes2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-31 01:21+0000\n"
-"PO-Revision-Date: 2024-07-20 23:19+0200\n"
+"PO-Revision-Date: 2026-02-14 13:19+0100\n"
 "Last-Translator: fheroes2 team <fhomm2@gmail.com>\n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Launchpad-Export-Date: 2013-10-09 02:01+0000\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.0.1\n"
 
 msgid "SELECT"
 msgstr "WYBIERZ"
@@ -1893,7 +1893,7 @@ msgid "campaignBonus|Minor Scroll"
 msgstr "Pomniejszy Zwój"
 
 msgid "campaignBonus|Nomad Boots"
-msgstr "Buty Nomady"
+msgstr "Buty Nomada"
 
 msgid "campaignBonus|Power Axe"
 msgstr "Potężny Topór"
@@ -10728,30 +10728,26 @@ msgstr "Nie można wymienić tego przedmiotu."
 msgid "Invalid Artifact"
 msgstr "Nieprawidłowy artefakt"
 
-#, fuzzy
 msgid "The %{name} increases the hero's knowledge by %{count}."
-msgstr "%{name} zwiększa twoją wiedzę o %{count}."
+msgstr "%{name} zwiększa współczynnik wiedzy bohatera o %{count}."
 
 msgid "Ultimate Book of Knowledge"
 msgstr "Najzn. Księga Wiedzy"
 
-#, fuzzy
 msgid "The %{name} increases the hero's attack skill by %{count}."
-msgstr "%{name} zwiększa twój atak o %{count}."
+msgstr "%{name} zwiększa współczynnik ataku bohatera o %{count}."
 
 msgid "Ultimate Sword of Dominion"
 msgstr "Najzn. Miecz Dominium"
 
-#, fuzzy
 msgid "The %{name} increases the hero's defense skill by %{count}."
-msgstr "%{name} zwiększa twoją obronę o %{count}."
+msgstr "%{name} zwiększa współczynnik obrony bohatera o %{count}."
 
 msgid "Ultimate Cloak of Protection"
 msgstr "Najzn. Płaszcz Ochrony"
 
-#, fuzzy
 msgid "The %{name} increases the hero's spell power by %{count}."
-msgstr "%{name} zwiększa twoją moc o %{count}."
+msgstr "%{name} zwiększa moc zaklęć bohatera o %{count}."
 
 msgid "Ultimate Wand of Magic"
 msgstr "Najzn. Różdżka Magii"
@@ -10834,9 +10830,8 @@ msgstr ""
 msgid "Medal of Valor"
 msgstr "Medal Męstwa"
 
-#, fuzzy
 msgid "The %{name} increases the morale of the hero's army by %{count}."
-msgstr "%{name} zwiększa twoje morale o %{count}."
+msgstr "%{name} zwiększa morale armii bohatera o %{count}."
 
 msgid ""
 "Freeing a virtuous maiden from the clutches of an evil overlord, you are "
@@ -10879,10 +10874,9 @@ msgstr ""
 msgid "Fizbin of Misfortune"
 msgstr "Fizbin Nieszczęścia"
 
-#, fuzzy
 msgid ""
 "The %{name} greatly decreases the morale of the hero's army by %{count}."
-msgstr "%{name} znacząco zmniejsza twoje morale o %{count}."
+msgstr "%{name} znacznie obniża morale armii bohatera o %{count}."
 
 msgid ""
 "You stumble upon a medal lying alongside the empty road. Adding the medal to "
@@ -10907,9 +10901,8 @@ msgstr ""
 msgid "Armored Gauntlets of Protection"
 msgstr "Pancerne Rękawice Ochrony"
 
-#, fuzzy
 msgid "The %{name} increase the hero's defense skill by %{count}."
-msgstr "%{name} zwiększają twoją obronę o %{count}."
+msgstr "%{name} zwiększa współczynnik obrony bohatera o %{count}."
 
 #, fuzzy
 msgid ""
@@ -10945,10 +10938,9 @@ msgstr ""
 msgid "Ballista of Quickness"
 msgstr "Balista Szybkości"
 
-#, fuzzy
 msgid "The %{name} gives the hero's catapult one extra shot per combat round."
 msgstr ""
-"%{name} pozwala twojej katapulcie strzelić jeden dodatkowy strzał na rundę."
+"%{name} pozwala katapulcie bohatera strzelić jeden dodatkowy strzał na rundę."
 
 msgid ""
 "Walking through the ruins of an ancient walled city, you find the instrument "
@@ -11050,9 +11042,8 @@ msgstr ""
 msgid "Endless Sack of Gold"
 msgstr "Bezdenny Worek Złota"
 
-#, fuzzy
 msgid "The %{name} provides the hero with %{count} gold per day."
-msgstr "%{name} zapewnia ci %{count} złota na dzień."
+msgstr "%{name} daje ci %{count} sztuk złota dziennie."
 
 msgid ""
 "A little leprechaun dances gleefully around a magic sack. Seeing you "
@@ -11089,11 +11080,10 @@ msgstr ""
 "dowolnej nieożywionej materii w złoto."
 
 msgid "Nomad Boots of Mobility"
-msgstr "Buty Mobilności Nomady"
+msgstr "Buty Mobilności Nomada"
 
-#, fuzzy
 msgid "The %{name} increase the hero's movement on land."
-msgstr "%{name} zwiększają twój zasięg ruchu na lądzie."
+msgstr "%{name} zwiększają zasięg ruchu bohatera na lądzie."
 
 msgid ""
 "A Nomad trader seeks protection from a tribe of Goblins. For your "
@@ -11121,9 +11111,8 @@ msgstr ""
 msgid "Lucky Rabbit's Foot"
 msgstr "Szczęśliwa Królicza Łapka"
 
-#, fuzzy
 msgid "The %{name} increases the luck of the hero's army by %{count}."
-msgstr "%{name} zwiększa twoje szczęście w walce o %{count}."
+msgstr "%{name} zwiększa szczęście armii bohatera o %{count}."
 
 msgid ""
 "A traveling merchant offers you a rabbit's foot, made of gleaming silver "
@@ -11169,9 +11158,8 @@ msgstr ""
 msgid "True Compass of Mobility"
 msgstr "Prawdziwy Kompas Mobilności"
 
-#, fuzzy
 msgid "The %{name} increases the hero's movement on land and sea."
-msgstr "%{name} zwiększa twój zasięg ruchu na lądzie i morzu."
+msgstr "%{name} zwiększa zasięg ruchu bohatera na lądzie i morzu."
 
 msgid ""
 "An old man claiming to be an inventor asks you to try his latest invention. "
@@ -11183,9 +11171,8 @@ msgstr ""
 msgid "Sailor's Astrolabe of Mobility"
 msgstr "Żeglarskie Astrolabium Mobilności"
 
-#, fuzzy
 msgid "The %{name} increases the hero's movement on sea."
-msgstr "%{name} zwiększa twój zasięg na morzu."
+msgstr "%{name} zwiększa zasięg ruchu bohatera na morzu."
 
 msgid ""
 "An old sea captain is being tortured by Ogres. You save him, and in return "
@@ -11198,7 +11185,7 @@ msgid "Evil Eye"
 msgstr "Złe Oko"
 
 msgid "The %{name} reduces the casting cost of curse spells by half."
-msgstr "%{name} redukuje koszty klątw o połowę."
+msgstr "%{name} redukuje koszty rzucania klątw o połowę."
 
 msgid ""
 "While venturing into a decrepit hut you find the Skeleton of a long dead "
@@ -11212,11 +11199,10 @@ msgstr ""
 msgid "Enchanted Hourglass"
 msgstr "Zaklęta Klepsydra"
 
-#, fuzzy
 msgid ""
 "The %{name} extends the duration of all the hero's spells by %{count} turns."
 msgstr ""
-"%{name} zwiększa czas trwania wszystkich twoich czarów o %{count} tury."
+"%{name} przedłuża czas trwania wszystkich twoich zaklęć o %{count} tury."
 
 #, fuzzy
 msgid ""
@@ -11231,9 +11217,9 @@ msgstr ""
 msgid "Gold Watch"
 msgstr "Złoty Zegarek"
 
-#, fuzzy
 msgid "The %{name} doubles the effectiveness of the hero's hypnotize spells."
-msgstr "%{name} podwaja efektywność twoich czarów hipnozy."
+msgstr ""
+"%{name} podwaja skuteczność wszystkich zaklęć hipnotyzujących bohatera."
 
 msgid ""
 "In reward for helping his cart out of a ditch, a traveling potion salesman "
@@ -11248,7 +11234,8 @@ msgid "Skullcap"
 msgstr "Czepiec"
 
 msgid "The %{name} halves the casting cost of all mind influencing spells."
-msgstr "%{name} zmniejsza o połowę koszty czarów wpływających na umysł."
+msgstr ""
+"%{name} zmniejsza o połowę koszty rzucania czarów wpływających na umysł."
 
 msgid ""
 "A brief stop at an improbable rural inn yields an exchange of money, tales, "
@@ -11261,12 +11248,11 @@ msgstr ""
 msgid "Ice Cloak"
 msgstr "Lodowy Płaszcz"
 
-#, fuzzy
 msgid ""
 "The %{name} halves all damage the hero's troops receive from cold spells."
 msgstr ""
-"%{name} zmniejsza o połowę uszkodzenia od czarów zimna zadanych twoim "
-"oddziałom."
+"%{name} zmniejsza o połowę obrażenia, jakich doznają oddziały bohatera od "
+"zaklęć zimna."
 
 msgid ""
 "Responding to the panicked cries of a damsel in distress, you discover a "
@@ -11280,12 +11266,11 @@ msgstr ""
 msgid "Fire Cloak"
 msgstr "Ognisty Płaszcz"
 
-#, fuzzy
 msgid ""
 "The %{name} halves all damage the hero's troops receive from fire spells."
 msgstr ""
-"%{name} zmniejsza o połowę uszkodzenia od czarów ognia zadanych twoim "
-"oddziałom."
+"%{name} zmniejsza o połowę obrażenia, jakich doznają oddziały bohatera od "
+"zaklęć ognia."
 
 msgid ""
 "You've come upon a fight between a Necromancer and a Paladin. The "
@@ -11301,13 +11286,12 @@ msgstr ""
 msgid "Lightning Helm"
 msgstr "Hełm Błyskawicy"
 
-#, fuzzy
 msgid ""
 "The %{name} halves all damage the hero's troops receive from lightning "
 "spells."
 msgstr ""
-"%{name} zmniejsza o połowę uszkodzenia od czarów burzy zadanych twoim "
-"oddziałom."
+"%{name} zmniejsza o połowę obrażenia, jakich doznają oddziały bohatera od "
+"zaklęć błyskawic."
 
 msgid ""
 "A traveling tinker in need of supplies offers you a helm with a thunderbolt "
@@ -11984,9 +11968,8 @@ msgstr ""
 msgid "Breastplate of Anduran"
 msgstr "Napierśnik Andurana"
 
-#, fuzzy
 msgid "The %{name} increases the hero's defense by %{count}."
-msgstr "%{name} zwiększa twoją obronę o %{count}"
+msgstr "%{name} zwiększa współczynnik obrony bohatera o %{count}"
 
 msgid ""
 "You come upon a sign. It reads: \"Here lies the body of Anduran. Bow and "

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fheroes2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-31 01:21+0000\n"
-"PO-Revision-Date: 2026-02-14 13:19+0100\n"
+"PO-Revision-Date: 2026-02-14 15:06+0100\n"
 "Last-Translator: fheroes2 team <fhomm2@gmail.com>\n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -11284,11 +11284,12 @@ msgstr ""
 msgid "Evercold Icicle"
 msgstr "Wiecznie Zimny Sopel"
 
-#, fuzzy
 msgid ""
 "The %{name} causes the hero's cold spells to do %{count} percent more damage "
 "to enemy troops."
-msgstr "%{name} zwiększa uszkodzenia twoich czarów zimna o %{count} procent."
+msgstr ""
+"%{name} sprawia, że zaklęcia zimna rzucane przez bohatera zadają %{count} "
+"procent więcej obrażeń wrogim oddziałom."
 
 msgid ""
 "An icicle withstanding the full heat of the noonday sun attracts your "
@@ -11302,11 +11303,12 @@ msgstr ""
 msgid "Everhot Lava Rock"
 msgstr "Niestygnąca Skała Wulkaniczna"
 
-#, fuzzy
 msgid ""
 "The %{name} causes the hero's fire spells to do %{count} percent more damage "
 "to enemy troops."
-msgstr "%{name} zwiększa uszkodzenia twoich czarów ognia o %{count} procent."
+msgstr ""
+"%{name} sprawia, że zaklęcia ognia rzucane przez bohatera zadają %{count} "
+"procent więcej obrażeń wrogim oddziałom."
 
 msgid ""
 "Your wanderings bring you into contact with a tribe of ape-like beings using "
@@ -11322,11 +11324,12 @@ msgstr ""
 msgid "Lightning Rod"
 msgstr "Piorunochron"
 
-#, fuzzy
 msgid ""
 "The %{name} causes the hero's lightning spells to do %{count} percent more "
 "damage to enemy troops."
-msgstr "%{name} zwiększa uszkodzenia twoich czarów burzy o %{count} procent."
+msgstr ""
+"%{name} sprawia, że zaklęcia błyskawic rzucane przez bohatera zadają "
+"%{count} procent więcej obrażeń wrogim oddziałom."
 
 msgid ""
 "While waiting out a storm, a lighting bolt strikes a nearby cottage's "
@@ -11341,10 +11344,9 @@ msgstr ""
 msgid "Snake-Ring"
 msgstr "Wężowy Pierścień"
 
-#, fuzzy
 msgid "The %{name} halves the casting cost of all of the hero's bless spells."
 msgstr ""
-"%{name} zmniejsza o połowę koszty wszystkich twoich czarów błogosławieństwa."
+"%{name} zmniejsza o połowę koszty rzucania wszystkich czarów błogosławiących."
 
 msgid ""
 "You've found an oddly shaped ring on the finger of a long dead traveler. The "
@@ -11356,13 +11358,12 @@ msgstr ""
 msgid "Ankh"
 msgstr "Ankh"
 
-#, fuzzy
 msgid ""
 "The %{name} doubles the effectiveness of all of the hero's resurrect and "
 "animate spells."
 msgstr ""
-"%{name} podwaja skuteczność wszystkich twoich czarów wskrzeszania i "
-"ożywiania."
+"%{name} podwaja efektywność wszystkich czarów wskrzeszających i ożywiających "
+"bohatera."
 
 msgid ""
 "A fierce windstorm reveals the entrance to a buried tomb. Your investigation "
@@ -11376,10 +11377,9 @@ msgstr ""
 msgid "Book of Elements"
 msgstr "Księga Żywiołów"
 
-#, fuzzy
 msgid ""
 "The %{name} doubles the effectiveness of all of the hero's summoning spells."
-msgstr "%{name} podwaja skuteczność wszystkich twoich czarów przywoływania."
+msgstr "%{name} podwaja skuteczność wszystkich czarów przywoływujących."
 
 msgid ""
 "You come across a conjurer who begs to accompany you and your army awhile "
@@ -11394,7 +11394,7 @@ msgid "Elemental Ring"
 msgstr "Pierścień Żywiołów"
 
 msgid "The %{name} halves the casting cost of all summoning spells."
-msgstr "%{name} zmniejsza o połowę koszty wszystkich czarów przywoływania."
+msgstr "%{name} zmniejsza o połowę koszty wszystkich czarów przywołujących."
 
 msgid ""
 "While pausing to rest, you notice a bobcat climbing a short tree to get at a "
@@ -11409,10 +11409,9 @@ msgstr ""
 msgid "Holy Pendant"
 msgstr "Święty Medalion"
 
-#, fuzzy
 msgid "The %{name} makes all of the hero's troops immune to curse spells."
 msgstr ""
-"%{name} sprawia, że wszystkie twoje oddziały są niewrażliwe na czary klątw."
+"%{name} sprawia, że wszystkie oddziały bohatera stają się odporne na klątwy."
 
 msgid ""
 "In your wanderings you come across a hermit living in a small, tidy hut. "
@@ -11427,10 +11426,10 @@ msgstr ""
 msgid "Pendant of Free Will"
 msgstr "Medalion Wolnej Woli"
 
-#, fuzzy
 msgid "The %{name} makes all of the hero's troops immune to hypnotize spells."
 msgstr ""
-"%{name} sprawia, że wszystkie twoje oddziały są niewrażliwe na czary hipnozy."
+"%{name} sprawia, że wszystkie oddziały bohatera stają się odporne na "
+"zaklęcia hipnotyzujące."
 
 msgid ""
 "Responding to cries for help, you find river Sprites making a sport of "
@@ -11447,10 +11446,10 @@ msgstr ""
 msgid "Pendant of Life"
 msgstr "Medalion Życia"
 
-#, fuzzy
 msgid "The %{name} makes all of the hero's troops immune to death spells."
 msgstr ""
-"%{name} sprawia, że wszystkie twoje oddziały są niewrażliwe na czary śmierci."
+"%{name} sprawia, że wszystkie oddziały bohatera stają się odporne na "
+"zaklęcia śmierci."
 
 msgid ""
 "A brief roadside encounter with a small caravan and a game of knucklebones "
@@ -11464,10 +11463,10 @@ msgstr ""
 msgid "Serenity Pendant"
 msgstr "Medalion Spokoju"
 
-#, fuzzy
 msgid "The %{name} makes all of the hero's troops immune to berserk spells."
 msgstr ""
-"%{name} sprawia, że wszystkie twoje oddziały są niewrażliwe na czary szału."
+"%{name} sprawia, że wszystkie oddziały bohatera stają się odporne na "
+"zaklęcia wzbudzające szał."
 
 msgid ""
 "The sounds of combat draw you to the scene of a fight between an old "
@@ -11483,11 +11482,10 @@ msgstr ""
 msgid "Seeing-eye Pendant"
 msgstr "Medalion Wszystkowidzenia"
 
-#, fuzzy
 msgid "The %{name} makes all of the hero's troops immune to blindness spells."
 msgstr ""
-"%{name} sprawia, że wszystkie twoje oddziały są niewrażliwe na czary "
-"oślepienia."
+"%{name} sprawia, że wszystkie oddziały bohatera stają się odporne na "
+"zaklęcia oślepiające."
 
 msgid ""
 "You come upon a very old woman, long blind from cataracts and dying alone. "
@@ -11504,11 +11502,10 @@ msgstr ""
 msgid "Kinetic Pendant"
 msgstr "Kinetyczny Medalion"
 
-#, fuzzy
 msgid "The %{name} makes all of the hero's troops immune to paralyze spells."
 msgstr ""
-"%{name} sprawia, że wszystkie twoje oddziały są niewrażliwe na czary "
-"paraliżu."
+"%{name} sprawia, że wszystkie oddziały bohatera stają się odporne na "
+"zaklęcia paraliżujące."
 
 msgid ""
 "You come across a golem wearing a glowing pendant and blocking your way. "
@@ -11522,10 +11519,10 @@ msgstr ""
 msgid "Pendant of Death"
 msgstr "Medalion Śmierci"
 
-#, fuzzy
 msgid "The %{name} makes all of the hero's troops immune to holy spells."
 msgstr ""
-"%{name} sprawia, że wszystkie twoje oddziały są niewrażliwe na święte czary."
+"%{name} sprawia, że wszystkie oddziały bohatera stają się odporne na święte "
+"zaklęcia."
 
 msgid ""
 "A quick and deadly battle with a Necromancer wins you his magical pendant. "
@@ -11539,11 +11536,11 @@ msgstr ""
 msgid "Wand of Negation"
 msgstr "Różdżka Negacji"
 
-#, fuzzy
 msgid ""
 "The %{name} makes all of the hero's troops immune to dispel magic spells."
 msgstr ""
-"%{name} sprawia, że wszystkie twoje oddziały są niewrażliwe na czary śmierci."
+"%{name} sprawia, że wszystkie oddziały bohatera stają się odporne na "
+"zaklęcia rozproszenia magii."
 
 #, fuzzy
 msgid ""
@@ -11558,13 +11555,12 @@ msgstr ""
 msgid "Golden Bow"
 msgstr "Złoty Łuk"
 
-#, fuzzy
 msgid ""
 "The %{name} eliminates the %{count} percent penalty for the hero's troops "
 "shooting past obstacles (e.g. castle walls)."
 msgstr ""
-"%{name} eliminuje %{count} procent kary dla twoich oddziałów strzelających "
-"przez przeszkody (np. zamkowe mury)"
+"%{name} eliminuje %{count}-procentową karę dla oddziałów bohatera "
+"strzelających przez przeszkody (np. zamkowe mury)."
 
 msgid ""
 "A chance meeting with a famous Archer finds you in a game of knucklebones "
@@ -11581,8 +11577,8 @@ msgid ""
 "The %{name} increases the amount of terrain the hero reveals when "
 "adventuring by %{count} extra square."
 msgstr ""
-"%{name} zwiększa ilość odsłanianego terenu podczas zwiedzania o %{count} "
-"dodatkowe pola."
+"%{name} zwiększa zasięg terenu odsłanianego przez bohatera podczas "
+"zwiedzania o %{count} dodatkowe pole."
 
 msgid ""
 "A merchant from far away lands trades you a new invention of his people for "
@@ -11600,13 +11596,12 @@ msgstr ""
 msgid "Statesman's Quill"
 msgstr "Pióro Dyplomaty"
 
-#, fuzzy
 msgid ""
 "The %{name} reduces the cost of surrender to %{count} percent of the total "
 "cost of troops the hero has in their army."
 msgstr ""
-"%{name} redukuje koszt kapitulacji do %{count} procent całego kosztu armii "
-"będącej w posiadaniu."
+"%{name} obniża koszt poddania się bohatera do %{count} procent całkowitego "
+"kosztu jednostek wchodzących w skład jego armii."
 
 msgid ""
 "You pause to help a diplomat with a broken axle fix his problem. In "
@@ -11620,10 +11615,11 @@ msgstr ""
 msgid "Wizard's Hat"
 msgstr "Kapelusz Czarodzieja"
 
-#, fuzzy
 msgid ""
 "The %{name} increases the duration of the hero's spells by %{count} turns."
-msgstr "%{name} zwiększa czas trwania twoich czarów o %{count} tur."
+msgstr ""
+"%{name} wydłuża czas działania zaklęć rzucanych przez bohatera o %{count} "
+"tur."
 
 msgid ""
 "You see a Wizard fleeing from a Griffin and riding like the wind. The Wizard "
@@ -11639,11 +11635,8 @@ msgstr ""
 msgid "Power Ring"
 msgstr "Pierścień Mocy"
 
-#, fuzzy
 msgid "The %{name} returns %{count} extra spell points per day to the hero."
-msgstr ""
-"%{name} przywraca twojemu bohaterowi dodatkowe %{count} punkty magii na "
-"dzień."
+msgstr "%{name} przywraca bohaterowi dodatkowe %{count} punkty magii na turę."
 
 msgid ""
 "You find a small tree that closely resembles the great Warlock Carnauth with "
@@ -11660,13 +11653,12 @@ msgstr ""
 msgid "Ammo Cart"
 msgstr "Wóz z Amunicją"
 
-#, fuzzy
 msgid ""
 "The %{name} provides endless ammunition for all of the hero's troops that "
 "shoot."
 msgstr ""
-"%{name} zapewnia nieskończoną amunicję dla wszystkich twoich oddziałów "
-"strzelających."
+"%{name} zapewnia nieskończoną amunicję dla wszystkich strzelających "
+"oddziałów bohatera."
 
 msgid ""
 "An ammunition cart in the middle of an old battlefield catches your eye. "

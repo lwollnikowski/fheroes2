@@ -3329,16 +3329,27 @@ namespace
             if ( _icnVsSprite[id].size() == 20 ) {
                 _icnVsSprite[id].resize( 23 );
 
-                fheroes2::h2d::readImage( "main_menu_editor_released_button.image", _icnVsSprite[id][20] );
+                _icnVsSprite[id][20]._disableTransformLayer();
+                _icnVsSprite[id][20].resize( 87, 64 );
+                _icnVsSprite[id][20].fill( 0 );
+
+                // fheroes2::h2d::readImage( "main_menu_editor_released_button.image", _icnVsSprite[id][20] );
                 fheroes2::h2d::readImage( "main_menu_editor_highlighted_button.image", _icnVsSprite[id][21] );
                 fheroes2::h2d::readImage( "main_menu_editor_pressed_button.image", _icnVsSprite[id][22] );
 
+                fheroes2::Sprite test;
+                fheroes2::h2d::readImage( "main_menu_editor_released_button.image", test );
+                // fheroes2::h2d::readImage( "main_menu_editor_highlighted_button.image", test );
+                Resize( test, 0, 0, test.width(), test.height(), _icnVsSprite[id][20], 0, 0, 87, 64 );
+                // Resize( test, 0, 0, test.width(), test.height(), _icnVsSprite[id][21], 0, 0, 87, 64 );
+
+                _icnVsSprite[id][20].setPosition( 534, 360 );
                 // _icnVsSprite[id][20].setPosition( 535, 360 ); // 535, 360
                 // _icnVsSprite[id][21].setPosition( 535, 360 );
                 // _icnVsSprite[id][22].setPosition( 535, 360 );
                 // _icnVsSprite[id][20]._disableTransformLayer();
-                _icnVsSprite[id][20].resize( 90, 64 ); // 87, 64
-                _icnVsSprite[id][20].reset();
+                // _icnVsSprite[id][20].resize( 88, 64 ); // 87, 64
+                // _icnVsSprite[id][20].reset();
                 // _icnVsSprite[id][21].resize( 90, 64 );
                 // _icnVsSprite[id][22].resize( 90, 64 );
             }
@@ -3677,7 +3688,8 @@ namespace
             const fheroes2::Sprite & resurrectionIcon = fheroes2::AGG::GetICN( ICN::ARTFX, 101 );
 
             if ( !successionWarsIcon.empty() ) {
-                Resize( successionWarsIcon, 0, 0, successionWarsIcon.width(), successionWarsIcon.height(), _icnVsSprite[id][0], 1, 1, 15, 15 );
+                // Resize( successionWarsIcon, 0, 0, successionWarsIcon.width(), successionWarsIcon.height(), _icnVsSprite[id][0], 1, 1, 15, 15 );
+                Resize( successionWarsIcon, 0, 0, successionWarsIcon.width(), successionWarsIcon.height(), _icnVsSprite[id][0], 5, 5, 7, 7 );
             }
 
             if ( !priceOfLoyaltyIcon.empty() ) {

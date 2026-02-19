@@ -135,6 +135,7 @@ namespace
 
     fheroes2::Sprite getModifiedByColorImage( const int32_t icnId, const uint32_t icnIndex, const PlayerColor colorId )
     {
+        // TODO: somewhere here
         const std::vector<fheroes2::Rect> regions = getColorEffectiveAreas( icnId, icnIndex );
         const std::vector<uint8_t> palette = getModifiedPaletteByPlayerColor( originalCastleFlagStartColorId, originalCastleFlagColorLength, colorId );
 

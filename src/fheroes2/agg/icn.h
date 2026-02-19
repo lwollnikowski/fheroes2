@@ -29,7 +29,7 @@ enum class PlayerColor : uint8_t;
 
 namespace ICN
 {
-    enum : int32_t
+    enum Type : int32_t
     {
         UNKNOWN,
         ADVBORDE,

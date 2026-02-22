@@ -2918,6 +2918,14 @@ namespace
             break;
         }
         case ICN::MONS32:
+            if ( _icnVsSprite[id].size() > 2 ) { // Ranger
+                fheroes2::Sprite & modified = _icnVsSprite[id][2];
+
+                fheroes2::Sprite temp( modified.width(), modified.height() + 2 );
+                temp.reset();
+                Blit( modified, 0, 0, temp, 0, 0, modified.width(), modified.height() );
+                modified = std::move( temp );
+            }
             if ( _icnVsSprite[id].size() > 4 ) { // Veteran Pikeman
                 fheroes2::Sprite & modified = _icnVsSprite[id][4];
 
@@ -2945,6 +2953,22 @@ namespace
                 modified = std::move( temp );
                 Fill( modified, 12, 0, 5, 1, 36 );
             }
+            if ( _icnVsSprite[id].size() > 20 ) { // Sprite
+                fheroes2::Sprite & modified = _icnVsSprite[id][20];
+
+                fheroes2::Sprite temp( modified.width(), modified.height() + 2 );
+                temp.reset();
+                Blit( modified, 0, 0, temp, 0, 0, modified.width(), modified.height() );
+                modified = std::move( temp );
+            }
+            if ( _icnVsSprite[id].size() > 29 ) { // Centaur
+                fheroes2::Sprite & modified = _icnVsSprite[id][29];
+
+                fheroes2::Sprite temp( modified.width(), modified.height() + 2 );
+                temp.reset();
+                Blit( modified, 0, 0, temp, 0, 0, modified.width(), modified.height() );
+                modified = std::move( temp );
+            }
             if ( _icnVsSprite[id].size() > 33 ) {
                 // Minotaur King original mini sprite has blue armlets. We make them gold to correspond the ICN::MINOTAU2.
                 fheroes2::Sprite & modified = _icnVsSprite[id][33];
@@ -2956,6 +2980,22 @@ namespace
                         modified.image()[pixelNumber] -= 42;
                     }
                 }
+            }
+            if ( _icnVsSprite[id].size() > 38 ) { // Halfling
+                fheroes2::Sprite & modified = _icnVsSprite[id][38];
+
+                fheroes2::Sprite temp( modified.width(), modified.height() + 2 );
+                temp.reset();
+                Blit( modified, 0, 0, temp, 0, 0, modified.width(), modified.height() );
+                modified = std::move( temp );
+            }
+            if ( _icnVsSprite[id].size() > 44 ) { // Archmage
+                fheroes2::Sprite & modified = _icnVsSprite[id][44];
+
+                fheroes2::Sprite temp( modified.width(), modified.height() + 2 );
+                temp.reset();
+                Blit( modified, 0, 0, temp, 0, 0, modified.width(), modified.height() );
+                modified = std::move( temp );
             }
             if ( _icnVsSprite[id].size() > 62 ) {
                 for ( size_t i = 0; i < 62; ++i ) {

@@ -2968,12 +2968,43 @@ namespace
                     if ( area.x > 0 || area.height != temp.height() ) {
                         const fheroes2::Point offset( temp.x() - area.x, temp.y() - temp.height() + area.y + area.height );
                         modified = Crop( temp, area.x, area.y, area.width, area.height );
-                        modified.setPosition( offset.x, offset.y );
+                        modified.setPosition( offset.x, offset.y - originalOffset.y );
                     }
                     else {
+                        // sprite with added shadows, reset position to (x, 0)
+                        temp.setPosition( temp.x(), 0 );
                         modified = std::move( temp );
                     }
                 }
+
+                _icnVsSprite[id][0].setPosition( 1, 0 ); // Peasant (-1, 0)
+                _icnVsSprite[id][1].setPosition( 0, 0 ); // Archer (-2, 0)
+                _icnVsSprite[id][3].setPosition( -1, 0 ); // Pikeman (-2, 0)
+                _icnVsSprite[id][4].setPosition( -1, 0 ); // Veteran Pikeman (-2, 0)
+                _icnVsSprite[id][5].setPosition( 0, 0 ); // Swordsman (-2. 0)
+                _icnVsSprite[id][7].setPosition( 0, 0 ); // Cavalry (-2, 0)
+                _icnVsSprite[id][8].setPosition( 0, 0 ); // Champion (-2, 0)
+                _icnVsSprite[id][9].setPosition( 0, 0 ); // Paladin (-2, 0)
+                _icnVsSprite[id][10].setPosition( 0, 0 ); // Crusader (-2, 0)
+                _icnVsSprite[id][11].setPosition( -1, 0 ); // Goblin (-2, 0)
+                _icnVsSprite[id][12].setPosition( 1, 0 ); // Orc (-2, 0)
+                _icnVsSprite[id][13].setPosition( 1, 0 ); // Orc Chieftain (-2, 0)
+                _icnVsSprite[id][20].setPosition( -3, 0 ); // Sprite (0, 0)
+                _icnVsSprite[id][21].setPosition( 1, 0 ); // Dwarf (0, 0)
+                _icnVsSprite[id][22].setPosition( 1, 0 ); // Battle Dwarf (0, 0)
+                _icnVsSprite[id][23].setPosition( 2, 0 ); // Elf (-2, 0)
+                _icnVsSprite[id][24].setPosition( 1, 0 ); // Grand Elf (-2, 0)
+                _icnVsSprite[id][32].setPosition( -1, 0 ); // Minotaur (-2, 0)
+                _icnVsSprite[id][33].setPosition( -1, 0 ); // Minotaur King (-2, 0)
+                _icnVsSprite[id][38].setPosition( -1, 0 ); // Halfling (0, 0)
+                _icnVsSprite[id][43].setPosition( 0, 0 ); // Mage (-2, 0)
+                _icnVsSprite[id][47].setPosition( 0, 0 ); // Skeleton (-2, 0)
+                _icnVsSprite[id][49].setPosition( 0, 0 ); // Mutant Zombie (-2, 0)
+                _icnVsSprite[id][54].setPosition( -2, 0 ); // Lich (-1, 0)
+                _icnVsSprite[id][62].setPosition( -3, 0 ); // Earth Elemental (0, 0)
+                _icnVsSprite[id][63].setPosition( -3, 0 ); // Air Elemental (0, 0)
+                _icnVsSprite[id][64].setPosition( -3, 0 ); // Fire Elemental (0, 0)
+                _icnVsSprite[id][65].setPosition( -3, 0 ); // Water Elemental (0, 0)
             }
             if ( _icnVsSprite[id].size() > 63 && _icnVsSprite[id][63].width() == 19 && _icnVsSprite[id][63].height() == 37 ) { // Air Elemental
                 fheroes2::Sprite & modified = _icnVsSprite[id][63];

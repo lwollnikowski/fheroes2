@@ -33,6 +33,99 @@
 #include "image.h"
 #include "ui_text.h"
 
+namespace
+{
+    class PopupHorizontalOffsetTable
+    {
+    public:
+        static constexpr int32_t get( std::size_t index )
+        {
+            if ( index < monsterPopupHorizontalOffset.size() ) {
+                return monsterPopupHorizontalOffset[index];
+            }
+
+            return 0;
+        }
+
+    private:
+        static constexpr std::array<int32_t, 66> monsterPopupHorizontalOffset = {
+            // Knight units
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2,
+            2,
+            3,
+            3,
+            // Barbarian units
+            1,
+            3,
+            3,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            -1,
+            // Sorceress units
+            -2,
+            3,
+            3,
+            4,
+            3,
+            0,
+            0,
+            0,
+            1,
+            // Warlock units
+            4,
+            0,
+            -1,
+            1,
+            1,
+            0,
+            -2,
+            -2,
+            -2,
+            // Wizard units
+            1,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            0,
+            0,
+            // Necromancer units
+            2,
+            1,
+            2,
+            1,
+            1,
+            0,
+            0,
+            -1,
+            -1,
+            -1,
+            // Neutral units
+            0,
+            1,
+            1,
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+        };
+    };
+}
+
 void fheroes2::drawMiniMonsters( const Troops & troops, int32_t cx, const int32_t cy, const int32_t width, uint32_t first, uint32_t count, const bool isCompact,
                                  const bool isDetailedView, const bool isGarrisonView, const uint32_t thievesGuildsCount, Image & output )
 {
@@ -114,7 +207,7 @@ void fheroes2::drawMiniMonsters( const Troops & troops, int32_t cx, const int32_
         }
         else {
             const int32_t offsetY = 28 - monster.height() + monster.y();
-            fheroes2::Blit( monster, output, posX - monster.width() / 2 + monster.x() + 2, cy + offsetY );
+            fheroes2::Blit( monster, output, posX - monster.width() / 2 + PopupHorizontalOffsetTable::get( troop->GetSpriteIndex() ), cy + offsetY );
             text.draw( posX - text.width() / 2, cy + 29, output );
         }
 

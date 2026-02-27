@@ -2968,11 +2968,12 @@ namespace
                     if ( area.x > 0 || area.height != temp.height() ) {
                         const fheroes2::Point offset( temp.x() - area.x, temp.y() - temp.height() + area.y + area.height );
                         modified = Crop( temp, area.x, area.y, area.width, area.height );
-                        modified.setPosition( offset.x, offset.y );
                     }
                     else {
                         modified = std::move( temp );
                     }
+
+                    modified.setPosition( 0, 0 );
                 }
             }
             if ( _icnVsSprite[id].size() > 63 && _icnVsSprite[id][63].width() == 19 && _icnVsSprite[id][63].height() == 37 ) { // Air Elemental

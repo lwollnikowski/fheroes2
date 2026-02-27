@@ -49,79 +49,73 @@ namespace
 
     private:
         static constexpr std::array<int32_t, 66> monsterPopupHorizontalOffset = {
-            // Knight units
-            2,
-            2,
-            2,
-            1,
-            1,
-            2,
-            1,
-            2,
-            2,
-            3,
-            3,
-            // Barbarian units
-            1,
-            3,
-            3,
-            1,
-            0,
-            0,
-            -1,
-            0,
-            -1,
+            2, // Peasant
+            2, // Archer
+            2, // Ranger
+            1, // Pikeman
+            1, // Veteran Pikeman
+            2, // Swordsman
+            1, // Master Swordsman
+            2, // Cavalry
+            2, // Champion
+            3, // Paladin
+            3, // Crusader
+            1, // Goblin
+            3, // Orc
+            3, // Orc Chief
+            1, // Wolf
+            0, // Ogre
+            0, // Ogre Lord
+            -1, // Troll
+            0, // War Troll
+            -1, // Cyclop
             // Sorceress units
-            -2,
-            3,
-            3,
-            4,
-            3,
-            0,
-            0,
-            0,
-            1,
-            // Warlock units
-            4,
-            0,
-            -1,
-            1,
-            1,
-            0,
-            -2,
-            -2,
-            -2,
-            // Wizard units
-            1,
-            0,
-            0,
-            0,
-            1,
-            2,
-            2,
-            0,
-            0,
-            // Necromancer units
-            2,
-            1,
-            2,
-            1,
-            1,
-            0,
-            0,
-            -1,
-            -1,
-            -1,
-            // Neutral units
-            0,
-            1,
-            1,
-            1,
-            0,
-            -1,
-            -1,
-            -1,
-            -1,
+            -2, // Sprite
+            3, // Dwarf
+            3, // Battle Dwarf
+            4, // Elf
+            3, // Grand Elf
+            0, // Druid
+            0, // Greater Druid
+            0, // Unicorn
+            1, // Phoenix
+            4, // Centaur
+            0, // Gargoyle
+            -1, // Griffin
+            1, // Minotaur
+            1, // Minotaur King
+            0, // Hydra
+            -2, // Green Dragon
+            -2, // Red Dragon
+            -2, // Black Dragon
+            1, // Halfling
+            0, // Boar
+            0, // Iron Golem
+            0, // Steel Golem
+            1, // Roc
+            2, // Mage
+            2, // Archmage
+            0, // Giant
+            0, // Titan
+            2, // Skeleton
+            1, // Zombie
+            2, // Mutant Zombie
+            1, // Mummy
+            1, // Royal Mummy
+            0, // Vampire
+            0, // Vampire Lord
+            -1, // Lich
+            -1, // Power Lich
+            -1, // Bone Dragon
+            0, // Rogue
+            1, // Nomad
+            1, // Ghost
+            1, // Genie
+            0, // Medusa
+            -1, // Earth Elemental
+            -1, // Air Elemental
+            -1, // Fire Elemental
+            -1, // Water Elemental
         };
     };
 }

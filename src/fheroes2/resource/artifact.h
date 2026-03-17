@@ -64,6 +64,7 @@ public:
 
     // All artifact IDs are by value 1 bigger than in the original game.
     // This is done to support new artifact addition and also align with the rest of object types.
+    // TODO: temporary debug helper, make it anonymous before PR
     enum ID : int32_t
     {
         UNKNOWN = 0,

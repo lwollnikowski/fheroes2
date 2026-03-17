@@ -767,11 +767,13 @@ fheroes2::GameMode Interface::AdventureMap::StartGame()
         // Clear fog around heroes, castles and mines for all players when starting a new map or if the save was done at the first day.
         for ( const Player * player : sortedPlayers ) {
             world.ClearFog( player->GetColor() );
+        }
+    }
 
+    if ( !isLoadedFromSave ) {
+        for ( const Player * player : sortedPlayers ) {
             if ( player->isControlAI() ) {
-                int a = 1;
                 for ( Heroes * hero : world.GetKingdom( player->GetColor() ).GetHeroes() ) {
-                    int c = 3;
                     BagArtifacts::sortArtifacts( *hero );
                 }
                 int b = 2;

@@ -37,6 +37,7 @@
 #include "agg_image.h"
 #include "ai_planner.h"
 #include "army.h"
+#include "artifact.h"
 #include "audio.h"
 #include "audio_manager.h"
 #include "battle_only.h"
@@ -766,6 +767,15 @@ fheroes2::GameMode Interface::AdventureMap::StartGame()
         // Clear fog around heroes, castles and mines for all players when starting a new map or if the save was done at the first day.
         for ( const Player * player : sortedPlayers ) {
             world.ClearFog( player->GetColor() );
+
+            if ( player->isControlAI() ) {
+                int a = 1;
+                for ( Heroes * hero : world.GetKingdom( player->GetColor() ).GetHeroes() ) {
+                    int c = 3;
+                    BagArtifacts::sortArtifacts( *hero );
+                }
+                int b = 2;
+            }
         }
     }
 
@@ -946,9 +956,7 @@ fheroes2::GameMode Interface::AdventureMap::StartGame()
         // We went through all the players, but the current player from the save file is still not found,
         // something is clearly wrong here
         if ( skipTurns ) {
-            DEBUG_LOG( DBG_GAME, DBG_WARN,
-                       "the current player from the save file was not found"
-                           << ", player color: " << Color::String( conf.CurrentColor() ) )
+            DEBUG_LOG( DBG_GAME, DBG_WARN, "the current player from the save file was not found" << ", player color: " << Color::String( conf.CurrentColor() ) )
 
             res = fheroes2::GameMode::MAIN_MENU;
         }

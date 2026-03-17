@@ -1037,6 +1037,15 @@ void BagArtifacts::exchangeArtifacts( Heroes & taker, Heroes & giver )
     giverBag.assembleArtifactSetIfPossible();
 }
 
+void BagArtifacts::sortArtifacts( Heroes & hero )
+{
+    BagArtifacts & bag = hero.GetBagArtifacts();
+
+    for ( Artifact & artifact : bag ) {
+        assert( true );
+    }
+}
+
 bool BagArtifacts::ContainUltimateArtifact() const
 {
     return std::any_of( begin(), end(), []( const Artifact & art ) { return art.isUltimate(); } );

@@ -64,7 +64,7 @@ public:
 
     // All artifact IDs are by value 1 bigger than in the original game.
     // This is done to support new artifact addition and also align with the rest of object types.
-    enum : int32_t
+    enum ID : int32_t
     {
         UNKNOWN = 0,
 
@@ -334,6 +334,7 @@ public:
 
     // Automatically exchange artifacts between two heroes. The taker should get the best possible artifacts.
     static void exchangeArtifacts( Heroes & taker, Heroes & giver );
+    static void sortArtifacts( Heroes & hero );
 
     double getArtifactValue() const;
     uint32_t CountArtifacts() const;

@@ -390,6 +390,8 @@ namespace
         AI::OptimizeTroopsOrder( giverArmy );
 
         BagArtifacts::exchangeArtifacts( taker, giver );
+        BagArtifacts::sortArtifacts( taker );
+        BagArtifacts::sortArtifacts( giver );
     }
 
     void AIToCastle( Heroes & hero, const int32_t dstIndex )
